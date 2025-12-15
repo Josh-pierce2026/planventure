@@ -1,5 +1,20 @@
-# Core dependencies
-flask==2.3.3
+# Core Flask dependencies
+flask==3.0.0
 flask-sqlalchemy==3.1.1
 flask-cors==4.0.0
+flask-jwt-extended==4.6.0
+
+# Environment and configuration
 python-dotenv==1.0.0
+
+# Database
+sqlalchemy>=2.0.35
+
+# Password hashing
+bcrypt==4.1.2
+
+# Validation
+email-validator==2.1.0
+
+# PostgreSQL support (optional, uncomment when needed for production)
+# psycopg2-binary==2.9.9

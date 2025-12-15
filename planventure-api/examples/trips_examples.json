@@ -1,0 +1,35 @@
+{
+  "create_trip": {
+    "destination": "Paris, France",
+    "start_date": "2025-06-15",
+    "end_date": "2025-06-22",
+    "latitude": 48.8566,
+    "longitude": 2.3522,
+    "itinerary": "Day 1: Arrive in Paris, check into hotel near the Eiffel Tower\nDay 2: Visit the Louvre Museum and walk along the Seine\nDay 3: Explore Montmartre and Sacré-Cœur\nDay 4: Day trip to Versailles Palace\nDay 5: Visit Notre-Dame and Latin Quarter\nDay 6: Shopping on Champs-Élysées\nDay 7: Final day - Musée d'Orsay and farewell dinner"
+  },
+  "create_trip_minimal": {
+    "destination": "Tokyo, Japan",
+    "start_date": "2025-09-01",
+    "end_date": "2025-09-10"
+  },
+  "create_trip_with_coordinates": {
+    "destination": "New York City, USA",
+    "start_date": "2025-07-04",
+    "end_date": "2025-07-11",
+    "latitude": 40.7128,
+    "longitude": -74.006,
+    "itinerary": "Day 1: Statue of Liberty and Ellis Island\nDay 2: Central Park and Metropolitan Museum\nDay 3: Times Square and Broadway show\nDay 4: Brooklyn Bridge walk\nDay 5: 9/11 Memorial\nDay 6: Fifth Avenue shopping\nDay 7: Departure"
+  },
+  "update_trip": {
+    "destination": "Paris & Nice, France",
+    "itinerary": "Updated itinerary with additional days in Nice"
+  },
+  "update_trip_dates": {
+    "start_date": "2025-06-20",
+    "end_date": "2025-06-27"
+  },
+  "update_trip_coordinates": {
+    "latitude": 43.7102,
+    "longitude": 7.262
+  }
+}
