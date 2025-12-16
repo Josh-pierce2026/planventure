@@ -1,43 +1,46 @@
-import { Box, Container } from '@mui/material';
-import Navbar from '../components/navigation/Navbar';
-import Footer from '../components/navigation/Footer';
+import { Box, Container } from "@mui/material";
+import { Outlet } from "react-router-dom";
+import Navbar from "../components/navigation/Navbar";
+import Footer from "../components/navigation/Footer";
 
 const AuthLayout = ({ children }) => {
   return (
-    <Box sx={{ 
-      display: 'flex', 
-      flexDirection: 'column', 
-      minHeight: '100vh',
-      width: '100%',
-      position: 'relative',
-      bgcolor: 'background.default'
-    }}>
+    <Box
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        minHeight: "100vh",
+        width: "100%",
+        position: "relative",
+        bgcolor: "background.default",
+      }}
+    >
       <Navbar />
-      <Container 
-        component="main" 
+      <Container
+        component="main"
         maxWidth="xs"
-        sx={{ 
+        sx={{
           flexGrow: 1,
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          justifyContent: 'center',
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
           py: 3,
           px: { xs: 2, sm: 3 },
           mt: 8,
-          mb: 10
+          mb: 10,
         }}
       >
         <Box
           sx={{
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            bgcolor: 'background.paper',
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            bgcolor: "background.paper",
             p: 4,
             borderRadius: 2,
             boxShadow: 1,
-            width: '100%'
+            width: "100%",
           }}
         >
           {children}
